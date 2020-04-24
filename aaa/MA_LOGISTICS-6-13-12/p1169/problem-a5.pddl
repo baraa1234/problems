@@ -1,0 +1,21 @@
+(define 
+(problem MALogistics-6-13-12-a5)
+(:domain MALogistics-6-13-12-a5)
+(:init
+	(city-in-area C45 A5)
+	(city-in-area C46 A5)
+	(city-in-area C47 A5)
+	(city-in-area C48 A5)
+	(truck-in-area T5 A5)
+	(truck-in-city T5 C45)
+	(adj C46 C45)
+	(adj C45 C46)
+	(adj C47 C46)
+	(adj C46 C47)
+	(adj C48 C47)
+	(adj C47 C48)
+	(package-in-city P3 C48)
+)
+(:goal (and
+))
+)
